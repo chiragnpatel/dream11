@@ -5,7 +5,7 @@ Aim is to select the team that would get the maximum total points in an IPL matc
 ## How to Run ?
 
 - Clone the repo to your local
-- pip install -r requirements.txt
+- pip install -r requirement.txt
 - update column - playercost in Data/ipl_squad_points.csv with the latest dream11 points as that changes before every match
 - Change this variable SELECT_FROM_PLAYING_XI (in controller.py) to False if running the code before the playing XI for the match is announced otherwise keep it as True
 - python controller.py
